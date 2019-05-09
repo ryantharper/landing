@@ -1,0 +1,97 @@
+.navbar {
+  background-color: #632158; }
+  .navbar .navbar-brand {
+    color: #eaeaea; }
+    .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+      color: #ffffff; }
+  .navbar .navbar-text {
+    color: #eaeaea; }
+    .navbar .navbar-text a {
+      color: #ffffff; }
+      .navbar .navbar-text a:hover, .navbar .navbar-text a:focus {
+        color: #ffffff; }
+  .navbar .navbar-nav .nav-link {
+    color: #eaeaea;
+    border-radius: .25rem;
+    margin: 0 0.25em; }
+    .navbar .navbar-nav .nav-link:not(.disabled):hover, .navbar .navbar-nav .nav-link:not(.disabled):focus {
+      color: #ffffff; }
+  .navbar .navbar-nav .dropdown-menu {
+    background-color: #632158;
+    border-color: #893168; }
+    .navbar .navbar-nav .dropdown-menu .dropdown-item {
+      color: #eaeaea; }
+      .navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .dropdown-menu .dropdown-item:focus, .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #893168; }
+    .navbar .navbar-nav .dropdown-menu .dropdown-divider {
+      border-top-color: #893168; }
+  .navbar .navbar-nav .nav-item.active .nav-link, .navbar .navbar-nav .nav-item.active .nav-link:hover, .navbar .navbar-nav .nav-item.active .nav-link:focus, .navbar .navbar-nav .nav-item.show .nav-link, .navbar .navbar-nav .nav-item.show .nav-link:hover, .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ffffff;
+    background-color: #893168; }
+  .navbar .navbar-toggle {
+    border-color: #893168; }
+    .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+      background-color: #893168; }
+    .navbar .navbar-toggle .navbar-toggler-icon {
+      color: #eaeaea; }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #eaeaea; }
+  .navbar .navbar-link {
+    color: #eaeaea; }
+    .navbar .navbar-link:hover {
+      color: #ffffff; }
+
+@media (max-width: 575px) {
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #eaeaea; }
+    .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ffffff; }
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #893168; } }
+
+@media (max-width: 767px) {
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #eaeaea; }
+    .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ffffff; }
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #893168; } }
+
+@media (max-width: 991px) {
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #eaeaea; }
+    .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ffffff; }
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #893168; } }
+
+@media (max-width: 1199px) {
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #eaeaea; }
+    .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ffffff; }
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #893168; } }
+
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: #eaeaea; }
+  .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff; }
+
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: #ffffff;
+  background-color: #893168; }
+
+  .jumbo-head{
+      font-family: 'Bree Serif', serif;
+  }
+
+  body {
+      font-family: 'Open Sans', serif;
+  }
