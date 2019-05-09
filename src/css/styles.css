@@ -88,10 +88,17 @@
   color: #ffffff;
   background-color: #893168; }
 
-  .jumbo-head{
-      font-family: 'Bree Serif', serif;
-  }
+.jumbo-head {
+  font-family: "Bree Serif", serif;
+  color: #893168; }
 
-  body {
-      font-family: 'Open Sans', serif;
-  }
+.jb {
+  background-color: white; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #eaeaea; }
+
+.project-header {
+  font-family: "Bree Serif", serif;
+  color: #893168; }

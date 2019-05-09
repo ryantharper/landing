@@ -3,6 +3,9 @@ $bgHighlight    : #893168;
 $colDefault     : #eaeaea;
 $colHighlight   : #ffffff;
 $dropDown       : true;
+$fontJumbo      : 'Bree Serif', serif;
+$fontBody       : 'Open Sans', sans-serif;
+
 .navbar {
   background-color: $bgDefault;
   .navbar-brand {
@@ -95,3 +98,21 @@ $dropDown       : true;
   .dropdown-item.active {
     color: $colHighlight;
     background-color: $bgHighlight; }}
+
+.jumbo-head {
+    font-family: $fontJumbo;
+    color: $bgHighlight;
+}
+.jb {
+    background-color: white;
+}
+
+body {
+    font-family: $fontBody;
+    background-color: $colDefault;
+}
+
+.project-header {
+    font-family: $fontJumbo;
+    color: $bgHighlight;
+}
